@@ -17,7 +17,7 @@ h1,h2,h3{
     text-align: center;
     padding: 160px 20px;
 }
-.about-section{
+.about-section, .work-section{
     padding: 160px 20px;
 }
 .hero p{
@@ -76,7 +76,7 @@ text-decoration: none;
         text-align: center;
     }
     
-   .about-section{
+   .about-section,.work-section{
     text-align: center;
     padding: 0;
    }
@@ -85,13 +85,11 @@ text-decoration: none;
 
 
 
-/* .about-section{
-     padding: 160px 20px;
-} */
-.about-content{
+
+.about-content,.content-inner{
     margin: 30px;
 }
-.about-section h1{
+.about-section h1, .work-section h1{
     font-size: 60px;
     line-height: 85px;
 }
@@ -107,4 +105,14 @@ text-decoration: none;
     font-weight: normal;
   
 
+}
+.content-inner h3{
+    font-size: 24px;
+    font-family: "Poppins", system-ui;
+    line-height: 30px;
+   
+}
+.content-inner p{
+    font-size: 14px;
+    
 }
