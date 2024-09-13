@@ -1,17 +1,23 @@
   /* font-family: "Playfair", serif;
   font-family: "Poppins", system-ui; */
 
-h1,h2,h3{
-   font-family: var(--heading-font-family);
-}
+
  :root{
     --btn-color: #6C63FF;
     --heading-font-family:"Playfair", serif;
  }
 
+h1,h2,h3{
+   font-family: var(--heading-font-family);
+   color: #000;
+   font-weight: bold;
+}
 .hero{
     background-color: #f9f7fe;
     text-align: center;
+    padding: 160px 20px;
+}
+.about-section{
     padding: 160px 20px;
 }
 .hero p{
@@ -40,6 +46,7 @@ font-size: 17px;
 color: white;
 line-height:27px;
 padding: 12px 20px;
+text-decoration: none;
 /* margin-bottom: 70px; */
 }
 h2{
@@ -63,10 +70,41 @@ text-decoration: none;
     padding: 120px 60px;
 }
 
-@media (max-width:960px) {
+@media (max-width:900px) {
     .project-description{
         padding: 0;
         text-align: center;
     }
     
+   .about-section{
+    text-align: center;
+    padding: 0;
+   }
+}
+
+
+
+
+/* .about-section{
+     padding: 160px 20px;
+} */
+.about-content{
+    margin: 30px;
+}
+.about-section h1{
+    font-size: 60px;
+    line-height: 85px;
+}
+.about-section h2{
+    font-size: 18px;
+    line-height: 27px;
+   
+}
+.about-section p{
+    font-size: 16px;
+    line-height: 30px;
+   
+    font-weight: normal;
+  
+
 }
