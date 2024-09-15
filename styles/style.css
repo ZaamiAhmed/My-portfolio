@@ -80,6 +80,12 @@ text-decoration: none;
     text-align: center;
     padding: 0;
    }
+   
+   .logo{
+    max-width: 80px;
+    height: 50px;
+    
+   }
 }
 
 
@@ -115,4 +121,32 @@ text-decoration: none;
 .content-inner p{
     font-size: 14px;
     
+}
+.logo{
+  max-height: 140px;
+}
+nav{
+    padding: 20px 0;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    line-height: 40px;
+    margin-left: 17px;
+}
+nav a{
+    text-decoration: none;
+    color: #272142;
+}
+nav a:hover{
+    color: var(--btn-color);
+}
+nav li.active a{
+    color: var(--btn-color);
+
 }
