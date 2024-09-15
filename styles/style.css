@@ -17,10 +17,10 @@ h1,h2,h3{
     /* background-color: #f9f7fe; */
     background-color: var(--secondry-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 .about-section, .work-section,.contact-section{
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 .hero p{
 font-size: 30px;
@@ -40,14 +40,13 @@ font-family: "Poppins", system-ui;
    color: #272142;
 }
 .btn-brand{
-    background: var(--btn-color);
-   /* background: #6C63FF; */
+background: var(--btn-color);
 border-radius: 4;
 border: none;
 font-size: 19px;
 color: white;
-line-height:29px;
-padding: 12px 20px;
+line-height:27px;
+padding: 15px 30px;
 text-decoration: none;
 /* margin-bottom: 70px; */
 }
@@ -64,7 +63,7 @@ p{
 border-radius: 4;
 font-size: 17px;
 line-height:27px;
-padding: 12px 20px;
+padding: 15px 30px;
 border: 1px solid var(--btn-color);
 text-decoration: none;
 }
@@ -179,8 +178,8 @@ footer{
     border-radius: 10px;
   
  }
- .contact-box h4{
-    font-size: 48px;
+ .contact-box h3{
+    font-size: 26px;
  }
  footer.contact-box p{
     margin: 0;
